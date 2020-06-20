@@ -9,26 +9,27 @@ app.get("/", function(req,res){
 app.get("/sobre", function(req,res){
         res.send("pagina sobre")})
 
-app.get('/blog', function(req,res){
-            res.send("pagina blog")})
+app.get('/blog', function(req,res)
+{
+            res.send("pagina blog")
+        
+        })
 
 
 app.get('/ola/:cargo/:nome/:cor', function(req,res){
-    res.send("<h1> Olá sr."+ req.params.nome+"</h1>"
+    res.send("<h1> Olá sr. "+ req.params.nome+" </h1>"
     
-    + '<h2> sua cor é'+ req.params.cor+'</h2>'
+    + '<h2> sua cor é '+ req.params.cor +' </h2>'
     
-    + '<h3> o Sr. é '+ req.params.cargo+'</h3>'
-    
-    );
- 
+    + '<h3> o Sr. é '+ req.params.cargo +' </h3>')})
+
   
    
     
     
     
     
-})
+
 
 
 
