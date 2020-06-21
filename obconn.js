@@ -1,4 +1,4 @@
-//objeto de conexao com o mariadb usando o sequelize ---
+//objeto de conexao com o mariadb usando o sequelize ----
 
 
 var dbname ="glpi"
