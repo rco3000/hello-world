@@ -1,0 +1,26 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "Olá galera, estou aprendendo a usar o git-hub seguindo o tutorial do site.\r espero daqui a 6 meses ter todo um projeto aqui dentro.",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mariadb2": "^0.1.0",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.13"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonasruiz/hello-world.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonasruiz/hello-world/issues"
+  },
+  "homepage": "https://github.com/jonasruiz/hello-world#readme"
+}
