@@ -1,3 +1,6 @@
+//objeto de conexao com o mariadb usando o sequelize
+
+
 var dbname ="glpi"
 var dbuser ="root"
 var dbserver="localhost"
