@@ -1,3 +1,5 @@
+/// obejeto de conexao sequelize mariadb m
+
 var dbname ="glpi"
 var dbuser ="root"
 var dbserver="localhost"
