@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 /// obejeto de conexao sequelize mariadb m
+=======
+//objeto de conexao com o mariadb usando o sequelize ----
+
+>>>>>>> e8800a26dc2b6fcbd06d54d7154974b6688df96e
 
 var dbname ="glpi"
 var dbuser ="root"
